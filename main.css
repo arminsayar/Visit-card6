@@ -128,13 +128,7 @@ body {
 
 @media (max-width: 1150px) {
     #container {
-        background-color: #fff;
         max-width: 85vw;
-        margin: 150px auto;
-        min-height: 530px;
-        border-radius: 25px;
-        background-image: url(/images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
-        background-repeat: no-repeat;
         background-size: 0;
     }
 
@@ -166,6 +160,22 @@ body {
         top: 76%;
     }
 
+    .d1-a {
+        top: 58%;
+    }
+
+    .d2-a {
+        top: 67%;
+    }
+
+    .d3-a {
+        top: 76%;
+    }
+
+    .d4-a {
+        top: 85%;
+    }
+
     #container>div:nth-child(4) {
         font-weight: 700;
         color: hsl(238, 29%, 16%);
@@ -193,6 +203,16 @@ body {
 
     #container>img:nth-child(1) {
         display: none;
+    }
+
+    .extra-text-a {
+        font-weight: 400;
+        color: hsl(240, 6%, 50%);
+        font-size: 12px;
+        width: 80vw;
+        position: absolute;
+        margin-top: 15px;
+
     }
 }
 

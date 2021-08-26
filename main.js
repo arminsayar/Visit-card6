@@ -12,11 +12,11 @@ const dO = document.getElementsByTagName('div')[3],
     dF = document.getElementsByTagName('div')[9],
     dFf = document.getElementsByTagName('div')[11];
 
-const ar1 = document.getElementsByTagName('img')[2],
-    ar2 = document.getElementsByTagName('img')[3],
-    ar3 = document.getElementsByTagName('img')[4],
-    ar4 = document.getElementsByTagName('img')[5],
-    ar5 = document.getElementsByTagName('img')[6];
+const ar1 = document.getElementsByTagName('img')[3],
+    ar2 = document.getElementsByTagName('img')[4],
+    ar3 = document.getElementsByTagName('img')[5],
+    ar4 = document.getElementsByTagName('img')[6],
+    ar5 = document.getElementsByTagName('img')[7];
 
 function clickF() {
     mdO.classList.toggle('activem');

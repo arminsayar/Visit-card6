@@ -15,7 +15,7 @@ body {
 #container {
     background-color: #fff;
     max-width: 70vw;
-    margin: 6% auto;
+    margin: 24vh auto;
     min-height: 530px;
     border-radius: 25px;
     background-image: url(/images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
@@ -23,7 +23,7 @@ body {
     background-position-y: 80px, -280px;
     background-position-x: -80px, -560px;
     position: relative;
-    height: 80vh;
+   
 }
 
 #container>img:nth-child(1) {

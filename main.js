@@ -1,16 +1,16 @@
 'use strict'
 
-const mdO = document.getElementsByTagName('div')[3],
-    mdT = document.getElementsByTagName('div')[5],
-    mdTt = document.getElementsByTagName('div')[7],
-    mdF = document.getElementsByTagName('div')[9],
-    mdFf = document.getElementsByTagName('div')[11];
+const mdO = document.getElementsByTagName('div')[2],
+    mdT = document.getElementsByTagName('div')[4],
+    mdTt = document.getElementsByTagName('div')[6],
+    mdF = document.getElementsByTagName('div')[8],
+    mdFf = document.getElementsByTagName('div')[10];
 
-const dO = document.getElementsByTagName('div')[4],
-    dT = document.getElementsByTagName('div')[6],
-    dTt = document.getElementsByTagName('div')[8],
-    dF = document.getElementsByTagName('div')[10],
-    dFf = document.getElementsByTagName('div')[12];
+const dO = document.getElementsByTagName('div')[3],
+    dT = document.getElementsByTagName('div')[5],
+    dTt = document.getElementsByTagName('div')[7],
+    dF = document.getElementsByTagName('div')[9],
+    dFf = document.getElementsByTagName('div')[11];
 
 const ar1 = document.getElementsByTagName('img')[3],
     ar2 = document.getElementsByTagName('img')[4],

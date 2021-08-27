@@ -1,16 +1,16 @@
 'use strict'
 
-const mdO = document.getElementsByTagName('div')[2],
-    mdT = document.getElementsByTagName('div')[4],
-    mdTt = document.getElementsByTagName('div')[6],
-    mdF = document.getElementsByTagName('div')[8],
-    mdFf = document.getElementsByTagName('div')[10];
+const mdO = document.getElementsByTagName('div')[3],
+    mdT = document.getElementsByTagName('div')[5],
+    mdTt = document.getElementsByTagName('div')[7],
+    mdF = document.getElementsByTagName('div')[9],
+    mdFf = document.getElementsByTagName('div')[11];
 
-const dO = document.getElementsByTagName('div')[3],
-    dT = document.getElementsByTagName('div')[5],
-    dTt = document.getElementsByTagName('div')[7],
-    dF = document.getElementsByTagName('div')[9],
-    dFf = document.getElementsByTagName('div')[11];
+const dO = document.getElementsByTagName('div')[4],
+    dT = document.getElementsByTagName('div')[6],
+    dTt = document.getElementsByTagName('div')[8],
+    dF = document.getElementsByTagName('div')[10],
+    dFf = document.getElementsByTagName('div')[12];
 
 const ar1 = document.getElementsByTagName('img')[3],
     ar2 = document.getElementsByTagName('img')[4],
@@ -28,6 +28,7 @@ function clickF() {
     mdFf.classList.toggle('d4-a');
     ar1.classList.toggle('rotate');
 };
+
 function clickF2() {
     mdT.classList.toggle('activem');
     dT.classList.toggle('extra-text-d');
@@ -38,6 +39,7 @@ function clickF2() {
     mdFf.classList.toggle('d4-a');
     ar2.classList.toggle('rotate');
 };
+
 function clickF3() {
     mdTt.classList.toggle('activem');
     dTt.classList.toggle('extra-text-d');
@@ -47,6 +49,7 @@ function clickF3() {
     mdFf.classList.toggle('d4-a');
     ar3.classList.toggle('rotate');
 };
+
 function clickF4() {
     mdF.classList.toggle('activem');
     dF.classList.toggle('extra-text-d');
@@ -55,6 +58,7 @@ function clickF4() {
     mdFf.classList.toggle('d4-a');
     ar4.classList.toggle('rotate');
 };
+
 function clickF5() {
     mdFf.classList.toggle('activem');
     dFf.classList.toggle('extra-text-d');
@@ -62,3 +66,4 @@ function clickF5() {
     dFf.style = "margin-top: 35px;"
     ar5.classList.toggle('rotate');
 };
+
